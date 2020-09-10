@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* GLOBAL CSS */
 body {
     letter-spacing: 1px;
@@ -78,6 +80,10 @@ h2 {
 }
 
 /* PARTNER COMPANY CSS */
+#company {
+    padding: 20px;
+}
+
 #company .company-main{
   margin-top: 100px;
 }
@@ -98,7 +104,7 @@ h2 {
 /* ABOUT US */
 
 #aboutUs {
-    margin-top: 50px;
+    padding: 20px;
     background-color: black;
 }
 
@@ -146,7 +152,7 @@ h2 {
 
 #service {
     padding: 20px;
-    padding-top: 40px;
+    padding-top: 3rem;
 }
 
 #service i {
@@ -176,4 +182,103 @@ h2 {
     font-weight: 400;
     line-height: normal;
     text-align: justify;
+}
+
+/* PRICING */
+
+#pricing {
+    background-color: #f6f6f6;
+    padding: 20px;
+    padding-top: 3rem;
+}
+#pricing .pricing-item {
+    text-align: center;
+    border-radius: 10px;
+    padding: 2rem 2.5rem;
+    position: relative;
+    max-width: 365px;
+    margin: 0 auto;
+    cursor: pointer;
+    z-index: 1;
+    transition: 1s;
+    background: #ffffff;
+}
+#pricing .pricing-item .price-title h2 {
+    font-size: 1.5rem;
+    color: #24c1dd;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+#pricing .basic:hover {
+    background: #24c1dd;
+    border-color: #24c1dd;
+}
+#pricing .advanced:hover {
+    background: #f1c30f;
+    border-color: #f1c30f;
+}
+#pricing .premium:hover {
+    background: #84b813;
+    border-color: #84b813;
+}
+#pricing .pricing-item:hover .price-title h2, 
+    #pricing .pricing-item:hover .price-title p,
+    #pricing .pricing-item:hover .price span,
+    #pricing .pricing-item:hover .price h3,
+    #pricing .pricing-item:hover .price-description p{
+    color: #ffffff;
+}
+#pricing .advanced .price-title h2 {
+    color: #f1c30f;
+}
+#pricing .premium .price-title h2 {
+    color: #84b813;
+}
+#pricing .pricing-item .price-title p {
+    color: #6f6f6f;
+    padding: 10px 0;
+}
+#pricing .pricing-item .price h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62px;
+    font-weight: 300;
+    color: #18191d;
+    margin-bottom: 0;
+}
+#pricing .pricing-item .price .dollar {
+    position: relative;
+    font-family:  Robo;
+    font-size: 60px;
+    top: 0;
+    font-weight: 300;
+}
+#pricing .pricing-item .price .month {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+#pricing .pricing-item .price-description {
+    padding-bottom: 22px;
+    max-width: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#pricing .pricing-item .price-description p {
+    color: #535353;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    display: flex;
+}
+#pricing .pricing-item .price-description p:before {
+    font-family: 'themify';
+    content: "\2713";
+    color: #30e512;
+    margin-right: 8px;
+    width: 20px;
+    font-size: 20px;
+}
+#pricing .pricing-item .price-description p.not:before {
+    content: "\292B";
+    color: #ff434b;
 }
