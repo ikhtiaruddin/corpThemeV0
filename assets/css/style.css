@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Quicksand&display=swap');
+/* GLOBAL CSS */
+body {
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto Slab Bold',serif;
+    color: #242729;
+}
+
+h2 {
+    font-family: 'Roboto Slab Bold',serif;
+    font-weight: 700;
+    color: #242729;
+}
+
+.header-hr {
+    height: 8px;
+    display: block;
+    width: 64px;
+    background-color: #f48024;
+    border-radius: 1000px !important;
+    margin-top: 15px;
+}
+
+.header-p {
+    max-width: 32.4102564rem !important;
+    color: #252b21;
+    letter-spacing: 1px;
+    margin: 16px auto 24px auto !important;
+    font-size: 15px;
+}
+
+.max-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.btn {
+    border-radius: 2px;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 9999;
+}
+#header .c-header {
+    border-bottom : none;
+}
+
+/* BANNER CSS */
+
+#banner {
+    background: url('../../img/img5.png');
+    height: auto;
+}
+#banner h1 {
+   font-weight: bold;
+   margin-top: 100px;
+   font-size: 45px;
+}
+#banner .btn {
+    padding: 10px 35px;
+}
+#banner .button-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+#banner .bg-orange {
+  background-color: white;
+  color: black;
+}
+
+/* PARTNER COMPANY CSS */
+#company .company-main{
+  margin-top: 100px;
+}
+
+#company .company-box {
+   box-shadow: 4px 5px 5px 1px lightgrey;
+}
+#company .company-box:hover {
+    box-shadow: 6px 5px 6px 2px lightgrey;
+}
+#company .phycho-factory {
+    margin-top: -50px;
+}
+#company .four-star {
+    margin-top: -50px;
+}
+
+/* ABOUT US */
+
+#aboutUs {
+    margin-top: 50px;
+    background-color: black;
+}
+
+#aboutUs h2{
+    padding-top: 2rem;
+}
+
+#aboutUs iframe {
+    margin: 50px 0px;
+}
+
+/* MISSON AND VISSON */
+
+#mivision {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+#mivision h2 {
+    /* font-family: "Barlow Condensed",Sans-Serif; */
+    letter-spacing: 1px;
+}
+
+#mivision p {
+    letter-spacing: 1px;
+    text-align: justify;
+    font-family: "Muli",Sans-Serif;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+#mivision .mission {
+    border-right: 1px solid #f48024; 
+}
+
+#mivision .mission > p {
+    margin-right: 30px;
+}
+
+#mivision .vission > p {
+    margin-left: 50px;
+}
+
+/* SERVICES */
+
+#service {
+    padding: 20px;
+    padding-top: 40px;
+}
+
+#service i {
+    color: #f48024;
+}
+
+#service .col-md-4:hover i {
+    font-size: 40px;
+    /* box-shadow: 4px 3px 4px 1px; */
+    box-shadow: 3px 3px 4px 0px;
+    border: 1px #f48024;
+    padding: 12px;
+    border-radius: 100%;
+    transition: .5s ease-in-out;
+}
+
+#service .row h2 {
+    /* font-family: "Barlow Condensed",Sans-Serif; */
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    font-size: 1.533em;
+    font-weight: bold;
+}
+
+#service .row p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+}
