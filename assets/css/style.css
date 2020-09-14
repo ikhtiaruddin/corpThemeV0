@@ -59,6 +59,25 @@ h2 {
     border-bottom : none;
 }
 
+/* HEADER CSS */
+
+.navbar .navbar-brand {
+    color: #f48024;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: #54595f;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-nav .nav-item:hover .nav-link {
+    color: #557dbf;
+    font-weight: bold;
+}
+.navbar-nav .nav-item {
+    padding-right: 10px;
+}
 /* BANNER CSS */
 
 #banner {
