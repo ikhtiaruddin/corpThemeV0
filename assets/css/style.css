@@ -425,3 +425,37 @@ h2 {
     background: #3cc88f;
     color: white;
 }
+
+/* FOOTER */
+.c-footer {
+    background-color: white;
+    margin-top: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-top: 0px;
+}
+.c-footer ul li {
+    margin-right: 0.8rem;
+}
+.c-footer .social-nav li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+.c-footer .link-nav li a {
+    color: #424242;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+.c-footer .section-divide {
+    display: block;
+    width: 99%;
+    height: 1px;
+    margin: -8px 0.8rem 8px 0px;
+    background-color: #424242;
+    opacity: 0.2;
+}
+.c-footer .copy-right p:last-child {
+    margin-right: 10px;
+}
