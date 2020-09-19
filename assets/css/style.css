@@ -426,6 +426,20 @@ h2 {
     color: white;
 }
 
+/* CONTACT */
+
+#contact {
+    padding: 20px;
+    padding-top: 2rem;
+    background-color: whitesmoke;
+}
+
+#contact .form-control {
+    border : 0px;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0px;
+}
+
 /* FOOTER */
 .c-footer {
     background-color: white;
