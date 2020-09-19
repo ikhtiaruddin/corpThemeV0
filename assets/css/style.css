@@ -150,6 +150,10 @@ h2 {
 #aboutUs iframe {
     margin: 50px 0px;
 }
+#aboutUs iframe {
+    width : 860px;
+    height : 415px;
+}
 
 /* MISSON AND VISSON */
 
@@ -473,3 +477,110 @@ h2 {
 .c-footer .copy-right p:last-child {
     margin-right: 10px;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 769px) and (max-width: 991px) { 
+    #company .phycho-factory {
+        margin-top: 0px;
+    }
+    #company .four-star {
+        margin-top: 0px;
+    }
+
+    #pricing .pricing-item {
+        margin-top: 15px;
+    }
+    
+    #aboutUs iframe {
+        width: 660px;
+        height: 375px;
+    }
+ }
+
+@media only screen and (min-width: 576px) and (max-width: 768px) { 
+    #company .phycho-factory {
+        margin-top: 0px;
+    }
+    #company .four-star {
+        margin-top: 0px;
+    }
+
+    #pricing .pricing-item {
+        margin-top: 15px;
+    }
+    
+    #aboutUs iframe {
+        width: 520px;
+        height: 375px;
+    }
+ } 
+
+ @media only screen and (min-width: 361px) and (max-width: 575px) { 
+    #company .phycho-factory {
+        margin-top: 0px;
+    }
+    #company .four-star {
+        margin-top: 0px;
+    }
+
+    #mivision .mission {
+        border-right: 0px;
+    }
+
+    #mivision .vission > p {
+        margin-left: 0px;
+    }
+
+    #pricing .pricing-item {
+        margin-top: 15px;
+    }
+    
+    #aboutUs iframe {
+        width: 350px;
+        height: 275px;
+    }
+
+    .c-footer .link-nav {
+        display: none !important;
+    }
+
+    .c-footer .copy-right p:last-child {
+        display: none   ;
+    }
+ } 
+
+ @media only screen and (min-width: 266px) and (max-width: 360px) { 
+    #company .phycho-factory {
+        margin-top: 0px;
+    }
+    #company .four-star {
+        margin-top: 0px;
+    }
+
+    #mivision .mission {
+        border-right: 0px;
+    }
+
+    #mivision .vission > p {
+        margin-left: 0px;
+    }
+
+    #pricing .pricing-item {
+        margin-top: 15px;
+    }
+    
+    #aboutUs iframe {
+        width: 243px;
+        height: 256px;
+    }
+
+    .c-footer .link-nav {
+        display: none !important;
+    }
+
+    .c-footer .copy-right p:last-child {
+        display: none   ;
+    }
+ }
+
