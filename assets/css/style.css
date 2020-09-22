@@ -60,6 +60,10 @@ h2 {
 }
 
 /* HEADER CSS */
+#navbar {
+    background-color: white;
+    z-index: 9999;
+}
 
 .navbar .navbar-brand {
     color: #f48024;
@@ -77,6 +81,20 @@ h2 {
 }
 .navbar-nav .nav-item {
     padding-right: 10px;
+}
+
+.navbar-toggler {
+    background-color: lightgrey;
+}
+
+.navbar-icon {
+    font-size: 13px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 /* BANNER CSS */
 
@@ -134,6 +152,11 @@ h2 {
 }
 #company .four-star {
     margin-top: -50px;
+}
+#company .card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ABOUT US */
